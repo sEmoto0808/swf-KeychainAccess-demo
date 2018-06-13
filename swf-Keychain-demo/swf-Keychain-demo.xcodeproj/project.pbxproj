@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A29C82DF20D0353B009392C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C82DE20D0353B009392C4 /* AppDelegate.swift */; };
+		A29C82E120D0353B009392C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C82E020D0353B009392C4 /* ViewController.swift */; };
+		A29C82E420D0353B009392C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29C82E220D0353B009392C4 /* Main.storyboard */; };
+		A29C82E620D0353C009392C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A29C82E520D0353C009392C4 /* Assets.xcassets */; };
+		A29C82E920D0353C009392C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A29C82E720D0353C009392C4 /* LaunchScreen.storyboard */; };
+		A29C82F420D0353C009392C4 /* swf_Keychain_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29C82F320D0353C009392C4 /* swf_Keychain_demoTests.swift */; };
+		A2E8450320D0361F00E58303 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E8450220D0361F00E58303 /* KeychainManager.swift */; };
+		A780411F0FB179553ED8C59B /* Pods_swf_Keychain_demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3E55A19E0803A567640869 /* Pods_swf_Keychain_demoTests.framework */; };
+		CA202B1F49A7C6A2E66E469A /* Pods_swf_Keychain_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90F9A4C71A05DE822B628027 /* Pods_swf_Keychain_demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A29C82F020D0353C009392C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A29C82D320D0353B009392C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A29C82DA20D0353B009392C4;
+			remoteInfo = "swf-Keychain-demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4BB0180DD87462D91320AA8B /* Pods-swf-Keychain-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-Keychain-demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-swf-Keychain-demo/Pods-swf-Keychain-demo.release.xcconfig"; sourceTree = "<group>"; };
+		74B7C905BFEAAE1976E1EA81 /* Pods-swf-Keychain-demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-Keychain-demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swf-Keychain-demoTests/Pods-swf-Keychain-demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		78E9B8D18E76748AEE25798F /* Pods-swf-Keychain-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-Keychain-demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swf-Keychain-demo/Pods-swf-Keychain-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		90F9A4C71A05DE822B628027 /* Pods_swf_Keychain_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swf_Keychain_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29C82DB20D0353B009392C4 /* swf-Keychain-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swf-Keychain-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29C82DE20D0353B009392C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A29C82E020D0353B009392C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A29C82E320D0353B009392C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A29C82E520D0353C009392C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A29C82E820D0353C009392C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A29C82EA20D0353C009392C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29C82EF20D0353C009392C4 /* swf-Keychain-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swf-Keychain-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A29C82F320D0353C009392C4 /* swf_Keychain_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swf_Keychain_demoTests.swift; sourceTree = "<group>"; };
+		A29C82F520D0353C009392C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2E2221E20D173DA00C02E52 /* swf-Keychain-demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "swf-Keychain-demo.entitlements"; sourceTree = "<group>"; };
+		A2E8450220D0361F00E58303 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		CF3E55A19E0803A567640869 /* Pods_swf_Keychain_demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swf_Keychain_demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C76196EC728B591FF79948 /* Pods-swf-Keychain-demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swf-Keychain-demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-swf-Keychain-demoTests/Pods-swf-Keychain-demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A29C82D820D0353B009392C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA202B1F49A7C6A2E66E469A /* Pods_swf_Keychain_demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29C82EC20D0353C009392C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A780411F0FB179553ED8C59B /* Pods_swf_Keychain_demoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60F6C1F5C768046CD6E3A8E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90F9A4C71A05DE822B628027 /* Pods_swf_Keychain_demo.framework */,
+				CF3E55A19E0803A567640869 /* Pods_swf_Keychain_demoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A29C82D220D0353B009392C4 = {
+			isa = PBXGroup;
+			children = (
+				A29C82DD20D0353B009392C4 /* swf-Keychain-demo */,
+				A29C82F220D0353C009392C4 /* swf-Keychain-demoTests */,
+				A29C82DC20D0353B009392C4 /* Products */,
+				C5503A39601B3B973ED5B1B9 /* Pods */,
+				60F6C1F5C768046CD6E3A8E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A29C82DC20D0353B009392C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A29C82DB20D0353B009392C4 /* swf-Keychain-demo.app */,
+				A29C82EF20D0353C009392C4 /* swf-Keychain-demoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A29C82DD20D0353B009392C4 /* swf-Keychain-demo */ = {
+			isa = PBXGroup;
+			children = (
+				A2E2221F20D1769800C02E52 /* KeychainManager */,
+				A2E2221E20D173DA00C02E52 /* swf-Keychain-demo.entitlements */,
+				A29C82DE20D0353B009392C4 /* AppDelegate.swift */,
+				A29C82E020D0353B009392C4 /* ViewController.swift */,
+				A29C82E220D0353B009392C4 /* Main.storyboard */,
+				A29C82E520D0353C009392C4 /* Assets.xcassets */,
+				A29C82E720D0353C009392C4 /* LaunchScreen.storyboard */,
+				A29C82EA20D0353C009392C4 /* Info.plist */,
+			);
+			path = "swf-Keychain-demo";
+			sourceTree = "<group>";
+		};
+		A29C82F220D0353C009392C4 /* swf-Keychain-demoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A29C82F320D0353C009392C4 /* swf_Keychain_demoTests.swift */,
+				A29C82F520D0353C009392C4 /* Info.plist */,
+			);
+			path = "swf-Keychain-demoTests";
+			sourceTree = "<group>";
+		};
+		A2E2221F20D1769800C02E52 /* KeychainManager */ = {
+			isa = PBXGroup;
+			children = (
+				A2E8450220D0361F00E58303 /* KeychainManager.swift */,
+			);
+			path = KeychainManager;
+			sourceTree = "<group>";
+		};
+		C5503A39601B3B973ED5B1B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78E9B8D18E76748AEE25798F /* Pods-swf-Keychain-demo.debug.xcconfig */,
+				4BB0180DD87462D91320AA8B /* Pods-swf-Keychain-demo.release.xcconfig */,
+				F8C76196EC728B591FF79948 /* Pods-swf-Keychain-demoTests.debug.xcconfig */,
+				74B7C905BFEAAE1976E1EA81 /* Pods-swf-Keychain-demoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A29C82DA20D0353B009392C4 /* swf-Keychain-demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29C82F820D0353C009392C4 /* Build configuration list for PBXNativeTarget "swf-Keychain-demo" */;
+			buildPhases = (
+				4D81CE976C967578D54918ED /* [CP] Check Pods Manifest.lock */,
+				A29C82D720D0353B009392C4 /* Sources */,
+				A29C82D820D0353B009392C4 /* Frameworks */,
+				A29C82D920D0353B009392C4 /* Resources */,
+				DE1881C9B7DB64C96D73085C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "swf-Keychain-demo";
+			productName = "swf-Keychain-demo";
+			productReference = A29C82DB20D0353B009392C4 /* swf-Keychain-demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A29C82EE20D0353C009392C4 /* swf-Keychain-demoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A29C82FB20D0353C009392C4 /* Build configuration list for PBXNativeTarget "swf-Keychain-demoTests" */;
+			buildPhases = (
+				B375145BCEB8CF9F366017AB /* [CP] Check Pods Manifest.lock */,
+				A29C82EB20D0353C009392C4 /* Sources */,
+				A29C82EC20D0353C009392C4 /* Frameworks */,
+				A29C82ED20D0353C009392C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A29C82F120D0353C009392C4 /* PBXTargetDependency */,
+			);
+			name = "swf-Keychain-demoTests";
+			productName = "swf-Keychain-demoTests";
+			productReference = A29C82EF20D0353C009392C4 /* swf-Keychain-demoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A29C82D320D0353B009392C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = S.Emoto;
+				TargetAttributes = {
+					A29C82DA20D0353B009392C4 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					A29C82EE20D0353C009392C4 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = A29C82DA20D0353B009392C4;
+					};
+				};
+			};
+			buildConfigurationList = A29C82D620D0353B009392C4 /* Build configuration list for PBXProject "swf-Keychain-demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A29C82D220D0353B009392C4;
+			productRefGroup = A29C82DC20D0353B009392C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A29C82DA20D0353B009392C4 /* swf-Keychain-demo */,
+				A29C82EE20D0353C009392C4 /* swf-Keychain-demoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A29C82D920D0353B009392C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29C82E920D0353C009392C4 /* LaunchScreen.storyboard in Resources */,
+				A29C82E620D0353C009392C4 /* Assets.xcassets in Resources */,
+				A29C82E420D0353B009392C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29C82ED20D0353C009392C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D81CE976C967578D54918ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swf-Keychain-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B375145BCEB8CF9F366017AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-swf-Keychain-demoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE1881C9B7DB64C96D73085C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-swf-Keychain-demo/Pods-swf-Keychain-demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/KeychainAccess/KeychainAccess.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/KeychainAccess.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-swf-Keychain-demo/Pods-swf-Keychain-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A29C82D720D0353B009392C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29C82E120D0353B009392C4 /* ViewController.swift in Sources */,
+				A2E8450320D0361F00E58303 /* KeychainManager.swift in Sources */,
+				A29C82DF20D0353B009392C4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A29C82EB20D0353C009392C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A29C82F420D0353C009392C4 /* swf_Keychain_demoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A29C82F120D0353C009392C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A29C82DA20D0353B009392C4 /* swf-Keychain-demo */;
+			targetProxy = A29C82F020D0353C009392C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A29C82E220D0353B009392C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29C82E320D0353B009392C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A29C82E720D0353C009392C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A29C82E820D0353C009392C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A29C82F620D0353C009392C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A29C82F720D0353C009392C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A29C82F920D0353C009392C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78E9B8D18E76748AEE25798F /* Pods-swf-Keychain-demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "swf-Keychain-demo/swf-Keychain-demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-Keychain-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-Keychain-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A29C82FA20D0353C009392C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB0180DD87462D91320AA8B /* Pods-swf-Keychain-demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "swf-Keychain-demo/swf-Keychain-demo.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-Keychain-demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-Keychain-demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A29C82FC20D0353C009392C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C76196EC728B591FF79948 /* Pods-swf-Keychain-demoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-Keychain-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-Keychain-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf-Keychain-demo.app/swf-Keychain-demo";
+			};
+			name = Debug;
+		};
+		A29C82FD20D0353C009392C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74B7C905BFEAAE1976E1EA81 /* Pods-swf-Keychain-demoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WCRE7XME38;
+				INFOPLIST_FILE = "swf-Keychain-demoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sEmoto.jp.swf-Keychain-demoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swf-Keychain-demo.app/swf-Keychain-demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A29C82D620D0353B009392C4 /* Build configuration list for PBXProject "swf-Keychain-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29C82F620D0353C009392C4 /* Debug */,
+				A29C82F720D0353C009392C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29C82F820D0353C009392C4 /* Build configuration list for PBXNativeTarget "swf-Keychain-demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29C82F920D0353C009392C4 /* Debug */,
+				A29C82FA20D0353C009392C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A29C82FB20D0353C009392C4 /* Build configuration list for PBXNativeTarget "swf-Keychain-demoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29C82FC20D0353C009392C4 /* Debug */,
+				A29C82FD20D0353C009392C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A29C82D320D0353B009392C4 /* Project object */;
+}

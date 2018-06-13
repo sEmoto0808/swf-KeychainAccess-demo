@@ -1,0 +1,6 @@
+framework module Pods_swf_Keychain_demo {
+  umbrella header "Pods-swf-Keychain-demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
